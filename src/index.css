@@ -1,0 +1,294 @@
+/*------------------------------RESPONSIVE SIDE----------------------------------------------------*/
+@media (max-width:1440px) {
+  .flex-nav-cont {
+    width: 100%;
+  }
+
+  .layer {
+    width: 170px;
+    height: 70px;
+  }
+
+  .layer5 {
+    width: 150px;
+    height: 70px;
+    margin-left: 0.5rem;
+  }
+
+  .layer5 h2 {
+    font-size: 1rem;
+  }
+
+  .flex-cont .el {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flex-cont {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .section {
+    width: 90%;
+  }
+
+  .call-to-action h1 {
+    font-size: 4rem;
+  }
+
+  .call-to-action,
+  .tendances,
+  .hub-container {
+    width: 90%;
+    height: auto;
+  }
+
+}
+
+@media (max-width:1024px) {
+  .event .home-submit-btn {
+    margin-left: 3rem;
+    width: 280px;
+  }
+
+  .action-side {
+    width: 38%;
+  }
+
+  .call-to-action h1 {
+    font-size: 3rem;
+  }
+
+  .call-to-action h2 {
+    font-size: 2rem;
+  }
+
+  .tendances {
+    width: 90%;
+  }
+
+  .tendances-layout {
+    width: 100%;
+    column-gap: 1rem;
+  }
+
+  .model-text h2,
+  .model-text p {
+    margin-left: 0rem;
+  }
+
+  .missModel p {
+    font-size: medium;
+  }
+
+  .missModel img {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .model-text {
+    padding: 0.5rem;
+    width: 100%;
+  }
+
+  .model-text h2 {
+    font-size: 1.2rem;
+  }
+
+  .stats {
+    width: 30%;
+  }
+
+  .stats h2 {
+    font-size: 1rem;
+  }
+
+  .stats h2 {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .hub-row2 h1 {
+    font-size: 3rem;
+  }
+
+  .hub-row .model-grid .home-submit-btn {
+    padding: 10px;
+    font-size: small;
+    margin-top: 1rem;
+  }
+
+  .model-grid p {
+    margin-top: 0.5rem;
+  }
+
+}
+
+@media (max-width:900px) {
+  .mobil-nav {
+    display: block;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .action-side {
+    width: 60%;
+  }
+
+  .mobil-nav {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--mischka);
+  }
+
+  .section {
+    width: 98%;
+  }
+
+  .tendances-layout {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hub-row {
+    grid-template-columns: 100%;
+  }
+
+  .hub-row .model-grid .home-submit-btn {
+    margin-top: 0rem;
+  }
+
+  .hub-row2 img {
+    margin-top: 200px;
+  }
+
+  .event .home-submit-btn {
+    margin-left: 2rem;
+    width: 280px;
+  }
+}
+
+@media (max-width:900px) {
+  .flex-cont {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section {
+    grid-template-columns: 100%;
+  }
+
+  .call-to-action {
+    display: grid;
+    grid-template-rows: 50% 50%;
+  }
+
+  .call-to-action .img-cont {
+    width: 100%;
+  }
+
+  .call-to-action .text-cont {
+    width: 100%;
+  }
+
+  .tendances-layout {
+    grid-template-columns: 100%;
+  }
+
+  .hub-block2 {
+    grid-template-columns: 100%;
+  }
+
+  .event .home-submit-btn {
+    margin-left: 13rem;
+    width: 320px;
+  }
+
+  .flex-nav-cont {
+    width: 100%;
+  }
+
+
+  .logo-cont h1 {
+    font-size: 1.2rem;
+  }
+
+  .app-logo {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .action-side .home-submit-btn {
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    border-radius: 5px;
+  }
+
+  .nav {
+    height: 15vh;
+  }
+}
+
+@media(max-width:450px) {
+  .event .home-submit-btn {
+    margin-left: 2rem;
+    width: 300px;
+  }
+
+  .layer {
+    width: 100px;
+    height: 50px;
+  }
+
+  .layer5 {
+    width: 110px;
+    height: 50px;
+    margin-left: 0rem;
+    border-radius: 5px;
+  }
+
+  .nav .action-side {
+    display: none;
+  }
+
+  .layer5 h2 {
+    font-size: 12px;
+  }
+
+  .call-to-action .text-cont h1 {
+    font-size: 2.4rem;
+  }
+
+  .call-to-action .text-cont h2 {
+    font-size: 1.6rem;
+  }
+
+  .call-to-action .text-cont p {
+    font-size: 1rem;
+  }
+}
+
+@media(max-width:375px) {
+  .event .home-submit-btn {
+    margin-left: 0.7rem;
+    width: 290px;
+  }
+
+  .hub-row2 p {
+    font-size: 1rem;
+  }
+
+  .hub-row2 h1 {
+    font-size: 1.2rem;
+  }
+
+  .hub-row .model-grid .home-submit-btn {
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+}
