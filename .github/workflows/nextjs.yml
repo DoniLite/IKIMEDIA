@@ -14,6 +14,7 @@ on:
   pull_request:
     branches:
       - main
+      - DoniLite-patch-1
   schedule:
     - cron: "0 2 * * 1-5"
 
