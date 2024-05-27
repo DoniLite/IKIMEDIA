@@ -10,6 +10,7 @@ on:
     branches:
       - main
       - release/*
+      - DoniLite-patch-1
   pull_request:
     branches:
       - main
